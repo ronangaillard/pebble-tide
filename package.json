@@ -1,0 +1,32 @@
+{
+  "name": "helloworld",
+  "author": "MakeAwesomeHappen",
+  "version": "1.0.0",
+  "keywords": [
+    "pebble-app"
+  ],
+  "private": true,
+  "dependencies": {
+    "moment": "^2.29.1"
+  },
+  "pebble": {
+    "main": {
+      "rockyjs": "src/rocky/index.js",
+      "pkjs": "src/pkjs/index.js"
+    },
+    "capabilities": [
+      "location"
+    ],
+    "displayName": "helloworld",
+    "uuid": "a2e5ea69-39e6-4f55-9c81-b1c49d26f65f",
+    "projectType": "rocky",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "watchapp": {
+      "watchface": true
+    },
+    "resources": {
+      "media": []
+    }
+  }
+}
